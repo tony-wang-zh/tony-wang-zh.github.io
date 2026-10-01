@@ -57,8 +57,16 @@ html {
 
 /* Page Sections */
 .page-section {
-    padding: 100px 20px; /* Top padding ensures content isn't hidden behind the sticky header */
+    padding: 80px 20px; /* Top padding ensures content isn't hidden behind the sticky header */
     min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.page-section-small {
+    padding: 80px 20px; /* Top padding ensures content isn't hidden behind the sticky header */
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -73,7 +81,10 @@ html {
     max-width: 800px;
     width: 100%;
     background: #ffffff;
-    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
