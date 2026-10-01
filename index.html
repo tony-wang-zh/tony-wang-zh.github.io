@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sticky Header Navigation -->
+    <header id="site-header">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#introduction" class="active">Introduction</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#other">Other</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="introduction" class="page-section">
+            <div class="content-box">
+                <div class="headshot-placeholder">
+                    <span>Headshot Image</span>
+                </div>
+                <h1>Hello, I'm [Your Name]</h1>
+                <p>Welcome to my professional portfolio. I am a [Your Profession] specializing in [Your Skills/Industry].</p>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="experience" class="page-section bg-light">
+            <div class="content-box">
+                <h2>Experience</h2>
+                    <!-- item -->
+                    <div class="job-item">
+                        <p>
+                            <strong>Software Engineer | Meta</strong><br>
+                            <em>July 2022 – Dec 2024</em><br>
+                            Worked on infrastructure, tooling, and full stack systems for reality lab device security. Closely collaborated with security advisors, Reality Lab research (richmond, WA), and manufacturing partners (Sunnyvale & singapore).
+                        </p>
+
+                        <!-- Key achievements list -->
+                        <ul class="job-item-list">
+                            <li>Protected authentication and telemetry for millions of Quest devices by updating cryptographic signing infrastructure across Qualcomm TrustZone (C), Android system services (Java), backend APIs (Hack) and services (C++).</li>
+                            <li>Mitigated hardware theft and IP risks on tens of thousands of development devices by engineering a secure unlock token system across Qualcomm PBL (C), backend, and internal tooling (Hack).</li>
+                            <li>Streamlined cross-team collaboration as the primary technical liaison between device security and internal tooling teams, executing codebase migrations (JavaScript to TypeScript) and authoring key engineering documentation.</li>
+                        </ul>
+
+                        <!-- Photo Gallery Row -->
+                        <p> Devices worked on:<p></p>
+                        <div class="gallery-row">
+                            <figure class="gallery-card">
+                                <img src="files/aria2.png" alt="Project screenshot 1">
+                                <figcaption>
+                                    <p>Project Aria 2<p></p> 
+                                    <p>(device security liason)<p></p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="gallery-card">
+                                <img src="files/quest3.png" alt="Project screenshot 2">
+                                <figcaption>
+                                    <p>Quest 3S<p></p> 
+                                    <p>(security features)<p></p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="gallery-card">
+                                <img src="files/glasses2.png" alt="Project screenshot 3">
+                                <figcaption>
+                                    <p>Ray-Ban meta gen 2<p></p> 
+                                    <p>(security features)<p></p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="page-section">
+            <div class="content-box">
+                <h2>Education</h2>
+                <p><strong>Degree Name</strong><br>
+                <em>University Name, Graduation Year</em><br>
+                Relevant coursework, honors, or activities.</p>
+            </div>
+        </section>
+
+        <!-- Other Section -->
+        <section id="other" class="page-section bg-light">
+            <div class="content-box">
+                <h2>Other</h2>
+                <p>Additional information such as certifications, volunteer work, skills, or hobbies can go here.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
