@@ -7,7 +7,8 @@
 
 html {
     scroll-behavior: smooth; /* Enables smooth jumping between sections */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; */
     line-height: 1.6;
     color: #333;
 }
