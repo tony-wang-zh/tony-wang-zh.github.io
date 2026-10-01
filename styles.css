@@ -44,6 +44,17 @@ html {
     color: #3498db;
 }
 
+.headshot-img {
+    width: 160px;             /* Adjust the width/height to your preferred size */
+    height: 160px;
+    border-radius: 50%;       /* Clips the square image into a perfect circle */
+    object-fit: cover;        /* Prevents image distortion/stretching */
+    object-position: center;   /* Centers the image within the circular crop */
+    display: block;
+    margin: 0 auto 1.5rem;    /* Centers the image horizontally and creates space below it */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle depth shadow */
+}
+
 /* Page Sections */
 .page-section {
     padding: 100px 20px; /* Top padding ensures content isn't hidden behind the sticky header */
