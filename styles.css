@@ -100,13 +100,48 @@ html {
 /* ------ Experience stypes ---------- */
 /* Job Item Container */
 .job-item {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+/* Job Header Container */
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Keeps the logo aligned with the top line of text */
+    margin-bottom: 8px;
+}
+
+/* Company Logo Styling */
+.company-logo {
+    width: 100px;          /* Adjust icon width as needed */
+    height: 60px;         /* Adjust icon height as needed */
+    object-fit: contain;  /* Prevents logos from stretching or distorting */
+    border-radius: 4px;   /* Optional: adds slightly rounded corners */
+    margin-right: 30pt;
+}
+
+.university-logo {
+    width: 160px;          /* Adjust icon width as needed */
+    height: 140;         /* Adjust icon height as needed */
+    object-fit: contain;  /* Prevents logos from stretching or distorting */
+    border-radius: 4px;   /* Optional: adds slightly rounded corners */
+    margin-right: 30pt;
+}
+
+/* Styling for embedded company link */
+.company-link {
+    color: inherit;            /* Inherits the dark text color from parent <strong> element */
+    text-decoration: underline; /* Keeps the underline so users know it's clickable */
+}
+
+/* Optional hover state */
+.company-link:hover {
+    color: #0066cc;            /* Changes color slightly when hovered */
 }
 
 /* Indented Bullet List */
 .job-item-list {
     margin-left: 2rem; /* Shifts the list and bullets further right */
-    padding-left: 1rem;
 }
 
 /* Gallery Container */

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Portfolio</title>
+    <link rel="icon" type="image/png" href="/files/favicon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -37,10 +38,15 @@
                 <h2>Experience</h2>
                     <!-- item -->
                     <div class="job-item">
+                        <div class="job-header">
+                            <div>
+                                <strong>Software Engineer | Meta</strong><br>
+                                <em>July 2022 – Dec 2024,</em> Bellevue WA<br>
+                            </div>
+                            <img src="files/Meta-Logo.png" alt="Company Logo" class="company-logo">
+                        </div>
                         <p>
-                            <strong>Software Engineer | Meta</strong><br>
-                            <em>July 2022 – Dec 2024</em><br>
-                            Worked on infrastructure, tooling, and full stack systems for reality lab device security. Closely collaborated with security advisors, Reality Lab research (richmond, WA), and manufacturing partners (Sunnyvale & singapore).
+                            Worked on full stack features, infrastructure, and internal tooling to safeguard the integrity of millions of Reality Lab devices throughout their life cycle. Closely collaborated with stakeholders in security consulting, research, manufacturing processes.
                         </p>
 
                         <!-- Key achievements list -->
@@ -51,7 +57,6 @@
                         </ul>
 
                         <!-- Photo Gallery Row -->
-                        <p> Devices worked on:<p></p>
                         <div class="gallery-row">
                             <figure class="gallery-card">
                                 <img src="files/aria2.png" alt="Project screenshot 1">
@@ -78,7 +83,76 @@
                             </figure>
                         </div>
                     </div>
-                
+
+                    <!-- item -->
+                    <div class="job-item">
+                        <div class="job-header">
+                            <div>
+                                <strong>
+                                    Researcher & Software Engineer | 
+                                    <a href="https://www.creativemachineslab.com/" class="company-link" target="_blank" rel="noopener noreferrer">Creative Machines Lab</a>
+                                </strong><br>
+                                <em>Sept 2024 – June 2025,</em> New York, NY<br>
+                            </div>
+                            <img src="files/CML-logo.png" alt="Company Logo" class="company-logo">
+                        </div>
+                        <p>
+                            Supported a team of brilliant mechanical engineers exploring the possibilities of <a href="https://www.creativemachineslab.com/digital-food.html" class="company-link" target="_blank" rel="noopener noreferrer">digital manufacturing and food science</a> , working on every aspect of the project including software, electronics, and hardware. 
+                        </p>
+
+                        <!-- Key achievements list -->
+                        <ul class="job-item-list">
+                            <li>Revived a stalled research project and unblocked researchers generating 3D printing files (G-code) by containerizing and overhauling legacy slicing software (Python, Docker, Slic3r/PrusaSlicer).</li>
+                            <li>Enabled the research initiative on novel form factor 3D printing by designing and implementing G-code generation software (Python) and integrating servo motors with the Duet control board. <a href="https://github.com/tony-wang-zh/juli3nne" class="company-link" target="_blank" rel="noopener noreferrer">Project GitHub</a></li>
+                        </ul>
+
+                        <!-- Photo Gallery Row -->
+                        <div class="gallery-row">
+                            <figure class="gallery-card">
+                                <img src="files/julienne.png" alt="Project screenshot 1">
+                                <figcaption>
+                                    <p>Updating slicing softwar<p></p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="gallery-card">
+                                <img src="files/3D_printer.jpeg" alt="Project screenshot 2">
+                                <figcaption>
+                                    <p>Rebuilding and updating printer<p></p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="gallery-card">
+                                <img src="files/servo.gif" alt="Project screenshot 3">
+                                <figcaption>
+                                    <p>Experimenting servo control with Duet 6XD board<p></p> 
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    
+                    <!-- item -->
+                    <div class="job-item">
+                        <div class="job-header">
+                            <div>
+                                <strong>
+                                    Software Engineer Intern | 
+                                    Zillow
+                                </strong><br>
+                                <em>July 2021 – Sept 2021 & July 2021 – Sept 2021,</em> Seattle, WA<br>
+                            </div>
+                            <img src="files/Zillow-logo.png" alt="Company Logo" class="company-logo">
+                        </div>
+
+                        <!-- Key achievements list -->
+                        <ul class="job-item-list">
+                            <li>Improved profile management capabilities for property and business owners by designing and implementing a new backend API and data model, and porting profile updates across web and mobile applications.</li>
+                            <li>Improved renter onboarding experience by building new first-time user flows on iOS (Swift), integrating preference selection and filtering to personalize search results from first use.</li>
+                        </ul>
+
+                    </div>
+
             </div>
         </section>
 
@@ -87,9 +161,27 @@
             <div class="content-box">
                 <h2>Education</h2>
                 <!-- item -->
-                <p><strong>M.S in Computer Science</strong><br>
-                <em>Columbia University, Sept 2025 - (expected) Dec 2026</em><br>
-                GPA 4.12 </p>
+                <div class="job-header">
+                    <div>
+                        <strong>
+                            M.S. in computer science | Columbia University
+                        </strong><br>
+                        <em>Sept 2025 – (Expected) Dec 2026,</em> New York, NY<br>
+                        <p>GPA: 4.12</p>
+                    </div>
+                    <img src="files/CU-logo.png" alt="Company Logo" class="company-logo">
+                </div>
+                <!-- item -->
+                <div class="job-header">
+                    <div>
+                        <strong>
+                            B.S. in computer science | University of Washington
+                        </strong><br>
+                        <em>Sept 2018 – June 2022,</em> Seattle, WA<br>
+                        <p>GPA: 3.79</p>
+                    </div>
+                    <img src="files/UW-Logo.webp" alt="Company Logo" style = "width: 60px; margin-right: 43pt;">
+                </div>
             </div>
         </section>
 
@@ -97,7 +189,14 @@
         <section id="other" class="page-section bg-light">
             <div class="content-box">
                 <h2>Other</h2>
-                <p>Additional information such as certifications, volunteer work, skills, or hobbies can go here.</p>
+                <p>Outside my professional life, I...</p>
+                <ul class="job-item-list">
+                    <li>Sing in choirs (UW Glee, Stanford community choid, Teacher's college community choir)</li>
+                    <li>Travel and explore (24 national parks and coutning)</li>
+                    <li>Learn French (Merci de visiter mon site!)</li>
+                    <li>Read (Most recently finished: The Four Loves by C.S Lewis)</li>
+
+                </ul>
             </div>
         </section>
     </main>
